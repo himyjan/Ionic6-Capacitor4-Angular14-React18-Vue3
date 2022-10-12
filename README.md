@@ -5,6 +5,14 @@ create project
 npx @ionic/cli@latest start
 ```
 
+add mobile
+```
+npm i
+npm i @capacitor/cli @capacitor/core @capacitor/ios @capacitor/android
+cap init;cap add ios;cap add android;cap sync
+cap open ios;cap open android
+```
+
 Your Ionic app is ready! Follow these next steps:
 
 - Go to your new project: cd ./angular-app
